@@ -1,0 +1,272 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+background-color: #3c4cad;
+display: flex;
+justify-content: space-between;
+height: 90px ;
+padding-left: 35px;
+}
+
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+header .menu {
+   padding: 35px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.menu a {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+img{
+    width : 860px;
+
+}
+
+header  a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sub_head  {
+background-color:#5e72eb ;
+display: flex;
+justify-content: space-between;
+height: 30px;
+padding: 10px 35px ;
+align-items: center;
+}
+
+input[type="text"] {
+    border-radius: 3px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    height: 32px;
+    background-color:#56c566;
+    color: white;
+}
+
+.auth a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.news {
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: justify;
+    border: none;
+    width: 860px;
+}
+
+.element {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(211, 205, 204);
+    border-radius: 7px;
+    box-shadow: 9px 8px 20px 9px #bbc1c4;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.element .head a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #414141;
+    margin-top: 15px;
+}
+
+.element .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.element .head p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #414141;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #414141;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    height: 32px;
+    background-color:#56c566;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.list {
+    padding: 20px;
+    margin-top: 55px;
+    margin-right: 50px;
+    border-radius: 5px;
+    height: 320px;
+    width: 250px;
+    border-color: rgb(211, 205, 204);
+    border-radius: 7px;
+    box-shadow: 9px 8px 20px 9px #bbc1c4;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    background-color: #414141;
+    height: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.end a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.menu_mobile {
+    display: none;
+}
+
+.menu_mobile_link {
+    display: none;
+    background-color: #5e73ebfb;
+    width: 100%;
+    line-height: 40px;
+    padding: 20px 0;
+    text-align: center;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.menu_mobile_link a {
+    display: block;
+    line-height: 10px;
+}
+
+.menu_mobile_link a:nth-last-child(2) {
+    line-height: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    menu {
+        padding: 20px 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .auth a {
+        display: none;
+    }
+    
+    .menu_mobile {
+        display: block;
+        padding: 20px 20px;
+        margin-right: 15px;
+    }
+
+    .menu_mobile_link {
+        width: 200px;
+    }
+
+    input[type="text"] {
+        width: 64%; 
+    }
+    
+    input[type="submit"] {
+        width: 25%;
+    }
+
+    .main {
+        width: 100%;
+        max-width: 800px;
+        flex-wrap: wrap;
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 0 0;
+    }
+
+    img {
+        width: 100%;
+        max-width: 800px;
+        padding-right: 20px;
+        margin: 0px;
+    }
+
+    .main .news {
+        padding: 0px;
+        margin: 0px;
+        max-width: 100%;
+    }
+    
+    .list {
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .list a {
+        text-decoration: none;
+    }
+
+    .end {
+        padding-top: 20px;
+    }
+
+
+
+}

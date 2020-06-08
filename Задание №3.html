@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style3.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Блог пользователя</title>
+        <meta charset ="utf8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">    
+    </head>
+        <body>
+            <header>
+                <a href="#"><h1> Блог пользователя</h1></a>
+                <div class="menu">
+                    <a href="./Задание №3.html" target="_blank">Главная</a>
+                    <a href="../Задание 4/Задание 4.html" target="_blank">Статьи</a>
+                    <a href="../Задание 5/Задание 5.html" target="_blank">Новости</a>
+                    <a href="http://yandex.ru" target="_blank">Обо мне</a>
+                </div>
+                <div class="menu_mobile">
+                    <a href="#" onclick="document.getElementById('menumobile').style.display = 'block'"><i class="fas fa-bars"></i></a>
+                </div>
+                <div class="menu_mobile_link" id="menumobile">
+                    <a href="./Задание №3.html" target="_blank">Главная</a>
+                    <a href="../Задание 4/Задание 4.html" target="_blank">Статьи</a>
+                    <a href="../Задание 5/Задание 5.html" target="_blank">Новости</a>
+                    <a href="#" target="_blank">Обо мне</a>
+                    <a href="#" target="_blank">Авторизация</a>
+                    <a href="#" target="_blank">Регистрация</a>
+                    <a href="#" onclick="document.getElementById('menumobile').style.display = 'none'">Закрыть</a>
+                </div>
+            </header>
+            <div class="sub_head">
+                <div class="search">
+                    <form action="/search" method="GET">
+                        <input type="text" name="text" placeholder="Введите текст...">
+                        <input type="submit" value="Искать">
+                    </form>
+                </div>
+                <div class="auth">
+                    <a href="http://yandex.ru" target="_blank">Авторизация</a>
+                    <a href="http://yandex.ru" target="_blank">Регистрация</a> 
+                </div>
+            </div> 
+            <div class="main">
+                <div class="news">
+                    <div class="element">
+                        <div class="head">
+                            <a href="http://yandex.ru" target="_blank">Статья 1</a>
+                            <p>1 февраля 2020</p>
+                        </div>
+                        <p>
+                            Не следует однако забывать, что реализация намеченных 
+                        плановых заданий требует от нас анализа существеных 
+                        финансовых и административных условий. Задача организации, 
+                        в особенности же сложившаяся структура организации влечет за
+                        собой процесс внедрения и модернизации систем массового 
+                        участия. Не следует, однако забывать, что сложившаяся структура
+                        организации играет важную роль в формировании новых предложений. 
+                        Таким образом укрепление и развитие структуры требуют от нас
+                        анализа дальнейших направлений развития.
+                        </p>
+                        <div class="foot">
+                            <p>Проcмотры: 300  Лайки: 200</p>
+                            <a href="../Задание 4/Задание 4.html" target="_blank"> Читать</a>
+                        </div>
+                    </div>
+                    <img src="Картинка.png" alt="Пример кода">
+                    <div class="element">
+                        <div class="head">
+                            <a href="#">Статья 1</a>
+                            <p>1 февраля 2020</p>
+                        </div>
+                        <p>
+                            Не следует однако забывать, что реализация намеченных 
+                        плановых заданий требует от нас анализа существеных 
+                        финансовых и административных условий. Задача организации, 
+                        в особенности же сложившаяся структура организации влечет за
+                        собой процесс внедрения и модернизации систем массового 
+                        участия. Не следует, однако забывать, что сложившаяся структура
+                        организации играет важную роль в формировании новых предложений. 
+                        Таким образом укрепление и развитие структуры требуют от нас
+                        анализа дальнейших направлений развития.
+                        </p>
+                        <div class="foot">
+                            <p>Просмотры: 300  Лайки: 200</p>
+                            <a href="../Задание 4/Задание 4.html" target="_blank"> Читать</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="list">
+                        <h2>Разделы</h2>
+                        <ul>
+                            <li type="none">Статьи</li>
+                                <ul type="none">
+                                    <li><a href="../Задание 1/Задание 1.html">Статья 1</a></li>
+                                    <li><a href="../Задание 1/Задание 1.html">Статья 2</a></li>
+                                    <li><a href="../Задание 2/Index_2.html">Статья 3</a></li>
+                                    <li><a href="..//Задание 2/Index_2.html">Статья 4</a></li>
+                                    <li><a href="../Задание 2/Index_2.html">Статья 5</a></li>
+                                    <ul>
+                                        <li  type="none"><a href="http://yandex.ru">Статья 5.1</a></li>
+                                    </ul>
+                                </ul>
+                            <li type="none"> Новости </li>
+                                <ul type="none">
+                                    <li>    <a href="http://yandex.ru">Новость 1</a></li>
+                                    <li><a href="http://yandex.ru">Новость 2</a></li>
+                                    <li><a href="http://yandex.ru">Новость 3</a></li>
+                                    <ul type="none">
+                                        <li><a href="http://yandex.ru">Новость 3.1</a></li>
+                                    </ul>
+                                </ul>
+                        </ul>
+                </div>
+            </div>
+            <div class="end">
+                <p> 2020 Все права защищены</p>
+                <div class="tel">
+                    <a href="tel:+79199520723">Разработчик: Лисица Антон</a>
+                </div>
+                
+            </div>
+            
+               
+    
+        </body>
+</html>
